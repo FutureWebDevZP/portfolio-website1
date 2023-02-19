@@ -1,5 +1,15 @@
 section {
     height: 500px;
-    background-color: yellow;
+    background-color: white;
     border: solid black 1px;
+}
+
+.hero {
+    background-color: rgb(20, 20, 22);
+    height: 100vh;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
 }
