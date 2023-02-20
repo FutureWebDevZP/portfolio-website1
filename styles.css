@@ -61,6 +61,7 @@ p {
 .hero-text {
     margin-left: 80px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .button {
@@ -70,4 +71,13 @@ p {
     border-radius: 50px; /* this makes the button look like a pill*/
     text-align: center;
     font-size: 30px;
+}
+
+.button:hover { /* this is to make the button change colors when you are about to click on it */
+    background-color: #ef744b;
+}
+
+.button:active { /* this makes the color of the button change when you click on it */
+    background-color: darkgray;
+    color: #808080;
 }
