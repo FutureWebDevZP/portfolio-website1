@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 section {
     height: 500px;
     background-color: white;
@@ -7,9 +12,54 @@ section {
 .hero {
     background-color: rgb(20, 20, 22);
     height: 100vh;
+    color: white;
+    font-size: 40px;
 }
 
 footer {
     height: 500px;
     background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 450px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 0 20px;
+    margin-top: 30px;
+    /* We can adjust whatever is in the unordered list specifically here*/
+}
+
+li {
+    /* width: 200px;*/
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p {
+    margin: 20;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.button {
+    width: 250px;
+    height: 60px;
+    background-color: coral;/* this changes the color of the button*/
+    border-radius: 50px; /* this makes the button look like a pill*/
+    text-align: center;
 }
