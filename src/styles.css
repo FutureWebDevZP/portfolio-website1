@@ -31,8 +31,8 @@ ul {
     list-style-type: none; /* this gets rid of the dots in our unordered list */
     width: 450px;
     justify-content: space-around;
-    font-size: 25px;
-    margin: 0 20px;
+    font-size: 30px;
+    margin: 0 30px;
     margin-top: 30px;
     /* We can adjust whatever is in the unordered list specifically here*/
 }
