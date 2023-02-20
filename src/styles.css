@@ -82,8 +82,8 @@ p {
 }
 
 .socials {
-    padding-bottom: 440px;
-    margin-right: 40px;
+    padding-bottom: 380px;
+    margin-right: 50px;
 }
 
 .logo {
@@ -92,3 +92,6 @@ p {
 
 }
 
+.social {
+    margin: 20px;
+}
