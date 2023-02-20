@@ -67,14 +67,14 @@ p {
 .button {
     width: 200px;
     height: 50px;
-    background-color: coral;/* this changes the color of the button*/
+    background-color: #004bcc;/* this changes the color of the button*/
     border-radius: 50px; /* this makes the button look like a pill*/
     text-align: center;
     font-size: 30px;
 }
 
 .button:hover { /* this is to make the button change colors when you are about to click on it */
-    background-color: #ef744b;
+    background-color: #2e8cff;
 }
 
 .button:active { /* this makes the color of the button change when you click on it */
