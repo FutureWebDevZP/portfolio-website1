@@ -5,7 +5,6 @@ body {
 /* specify section height to make each section has enough room for the content */
 section {
     background-color: white;
-    border: solid black 1px;
 }
 
 .hero {
@@ -101,6 +100,13 @@ p {
     padding: 80px;
 }
 
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px
+}
+
 h2 {
     font-size: 50px;
 }
@@ -119,3 +125,16 @@ h2 {
 .information {
     font-size: 25px;
 }
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(175, 173, 173);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+/* justify-content space around in the project container, makes the size of the project boxes on the page spaced-out */
+
