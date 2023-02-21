@@ -2,9 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* specify section height to make each section has enough room for the content */
 section {
-    height: 500px;
     background-color: white;
     border: solid black 1px;
 }
@@ -94,4 +93,29 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.headshot {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    font-size: 25px;
 }
