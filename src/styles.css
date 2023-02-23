@@ -91,8 +91,9 @@ p {
     margin-right: 50px;
 }
 
+/* this is how we change the size of the logo on the left side */
 .logo {
-    height: 300px; /* this is how we change the size of the logo on the left side */
+    height: 300px;
     margin: 30 0px;
 
 }
@@ -111,7 +112,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px
+    padding: 80px;
 }
 
 h2 {
@@ -129,6 +130,7 @@ h2 {
     align-items: center;
 }
 
+/* This is the text in our About Me section */
 .information {
     font-size: 25px;
 }
@@ -145,3 +147,40 @@ h2 {
 }
 /* justify-content space around in the project container, makes the size of the project boxes on the page spaced-out */
 
+/* These are the images in our project cards */
+.project-image1 {
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+.project-image2 {
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+.project-image3 {
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+/* This makes the line under the project information look better */
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none; /* This gets rid of the underline */
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

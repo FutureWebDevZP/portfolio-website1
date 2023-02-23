@@ -24,16 +24,17 @@
         />
         <!--This is creating a nav (navigation) bar-->
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <!--This is how you make a link go to a section on the same webpage (#about-me)-->
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
           <h1>Zuri Okon</h1>
           <p>Front End Developer</p>
-          <div class="button">About Me</div>
+          <div class="button"><a href="#about-me">About Me</a></div>
         </div>
         <div class="socials">
           <div>
@@ -96,7 +97,7 @@
       </div>
     </section>
     <!-- this is so we don't get our hero section above and this section confused-->
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <!--About Me Section!-->
       <div class="information">
         <h2>About Me</h2>
@@ -113,34 +114,67 @@
         />
       </div>
     </section>
-    <section class="sub-section-alt">
+    <section class="sub-section-alt" id="projects">
       <h2>Projects</h2>
       <!--this section will house all of our projects-->
       <div class="project-container">
         <div class="project-card">
-          <img class="project-image1" src="" alt="Project One Image" />
+          <img
+            class="project-image1"
+            src="src/images/barkie.png"
+            alt="Barkie-Project Image"
+          />
           <h3>Project One</h3>
-          <p class="sub-text">This is my project and some text about it.</p>
+          <p class="sub-text">My first html webpage.</p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/FutureWebDevZP/Barkify-Website-tp"
+              >View Here</a
+            >
+          </p>
         </div>
         <div class="project-card">
-          <img class="project-image2" src="" alt="Project Two Image" />
+          <img
+            class="project-image2"
+            src="src/images/cbdatabase.png"
+            alt="Celestial Database Project"
+          />
           <h3>Project Two</h3>
-          <p class="sub-text">This is my project and some text about it.</p>
+          <p class="sub-text">My first database project.</p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/FutureWebDevZP/celestial-DB-FCC"
+              >View Here</a
+            >
+          </p>
         </div>
         <div class="project-card">
-          <img class="project-image3" src="" alt="Project Three Image" />
+          <img
+            class="project-image3"
+            src="src/images/portfolio website.png"
+            alt="Portfolio Website Project"
+          />
           <h3>Project Three</h3>
-          <p class="sub-text">This is my project and some text about it.</p>
+          <p class="sub-text">My first portfolio website.</p>
           <hr />
-          <p class="sub-text">View Here</p>
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/FutureWebDevZP/portfolio-website1"
+              >View Here</a
+            >
+          </p>
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+      <h3>Contact Me</h3>
+      <p></p>
+    </footer>
 
     <script src="src/app.js"></script>
   </body>
