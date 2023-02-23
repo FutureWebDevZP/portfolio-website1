@@ -218,6 +218,11 @@ a {
     display: none;
 }
 
+/* This makes the border around the button disappear */
+.hamburger:focus {
+    outline: 0;
+}
+
 /* This makes the drop down menu only visible when the screen is compressed (hamburger list on the side)p*/
 @media only screen and (max-width: 1000px) {
     .hamburger {
@@ -226,10 +231,28 @@ a {
         background-color: transparent;
         color: white;
         font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
     }
 
     /* This makes the unordered list at the top right invisible when the screen is compressed */
     ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38
+    }
+
+    .logo {
         display: none;
     }
 }
