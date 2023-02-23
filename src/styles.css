@@ -1,5 +1,6 @@
 body {
-    font-family: 'Poppins', sans-serif; /* fallback value */
+    font-family: 'Poppins', sans-serif;
+    /* fallback value */
 }
 
 /* specify section height to make each section has enough room for the content */
@@ -28,7 +29,8 @@ nav {
 
 ul {
     display: flex;
-    list-style-type: none; /* this gets rid of the dots in our unordered list */
+    list-style-type: none;
+    /* this gets rid of the dots in our unordered list */
     width: 450px;
     justify-content: space-around;
     font-size: 30px;
@@ -61,7 +63,8 @@ p {
 .hero-area {
     display: flex;
     height: 100%;
-    justify-content: space-between; /* this creates space in between our elements */
+    justify-content: space-between;
+    /* this creates space in between our elements */
     align-items: center;
 }
 
@@ -73,17 +76,21 @@ p {
 .button {
     width: 200px;
     height: 50px;
-    background-color: #004bcc;/* this changes the color of the button*/
-    border-radius: 50px; /* this makes the button look like a pill*/
+    background-color: #004bcc;
+    /* this changes the color of the button*/
+    border-radius: 50px;
+    /* this makes the button look like a pill*/
     text-align: center;
     font-size: 30px;
 }
 
-.button:hover { /* this is to make the button change colors when you are about to click on it */
+.button:hover {
+    /* this is to make the button change colors when you are about to click on it */
     background-color: #2e8cff;
 }
 
-.button:active { /* this makes the color of the button change when you click on it */
+.button:active {
+    /* this makes the color of the button change when you click on it */
     background-color: darkgray;
     color: #808080;
 }
@@ -147,6 +154,7 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
+
 /* justify-content space around in the project container, makes the size of the project boxes on the page spaced-out */
 
 
@@ -190,7 +198,8 @@ hr {
 }
 
 .project-link {
-    text-decoration: none; /* This gets rid of the underline */
+    text-decoration: none;
+    /* This gets rid of the underline */
     color: black;
 }
 
@@ -201,5 +210,26 @@ a {
 
 #contact-me {
     color: white;
-    text-align: center;  /* This puts the text in the center of the page */
+    text-align: center;
+    /* This puts the text in the center of the page */
+}
+
+.hamburger {
+    display: none;
+}
+
+/* This makes the drop down menu only visible when the screen is compressed (hamburger list on the side)p*/
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+
+    /* This makes the unordered list at the top right invisible when the screen is compressed */
+    ul {
+        display: none;
+    }
 }
